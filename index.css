@@ -1,0 +1,103 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-color: rgb(51, 9, 90);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#mainHeading{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+.Palindrome{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 25px;
+    align-items: center;
+}
+#label{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.palinin{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    margin-top: 1%;
+    justify-content: center;
+}
+
+#text-input{
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+
+}
+#check-btn{
+    cursor: pointer;
+    height: 100%;
+    width: 15%;
+    border-radius: 15px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    font-size: 0.85rem;
+
+}
+#result{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-size: 1.5rem;
+}
+.palindrome-definition-div {
+    width: min(100vw, 450px);
+    font-size: 1.3rem;
+    min-height: 140px;
+    background-color: #00471b;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+@media screen and (max-width: 1220px), screen and (max-height: 730px) {
+    html {
+        font-size: 12px; /* Adjust this value as needed */
+    }
+}
+@media screen and (max-width: 925px), screen and (max-height: 630px) {
+    html {
+        font-size: 10px; /* Adjust this value as needed */
+    }
+}
+@media screen and (max-width: 741px), screen and (max-height: 542px) {
+    html {
+        font-size: 8px; /* Adjust this value as needed */
+    }
+}
+
+
+
